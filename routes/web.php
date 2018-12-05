@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/login', 'UserController@callHRApi');
+Route::post('/api_hr', 'UserController@callHRApi');
